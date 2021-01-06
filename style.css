@@ -75,10 +75,11 @@ section{
         background-color:rgb(250, 242, 242);
         
         font-size: 20px;
-        height: 500px;
+        height: 400px;
         margin: 0;
         padding-left: 50px;
         padding-bottom: 200px;
+        padding-top: 100px;
         align-items: center;
     }
         
@@ -112,8 +113,7 @@ section{
          width: 30%;
          margin: 7px;
          padding: 10px;
-
-      
+         
       }
       #agency{
         width: 30%;
@@ -128,3 +128,48 @@ section{
       }
 
       
+      .container {
+        position: relative;
+        font-family: Arial;
+        padding-left: 190px;
+      }
+      
+      .text-block {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        font-size: 20px;
+      
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      #txt{
+          font-size: 40px;
+          padding-right: 260px;
+          text-align: center;
+      }
+      #chat{
+          font-size: 20px;
+      }
+
+
+      #stay{
+          text-align: center;
+          color: gray;
+          font-weight: 500;
+      }
+
+      #hello{
+          text-align: center;
+          color: rgb(61, 61, 61);
+          font-size: 30px;
+          font-weight: 500;
+      }
+
+      .imm{
+          position: static;
+          padding-left: 230px;
+      }
+
