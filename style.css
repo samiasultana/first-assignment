@@ -42,7 +42,7 @@ h1{
 }
 
 .half-width img{
-    width: 100%;
+    width: 94%;
 }
 
 section{
@@ -71,39 +71,60 @@ section{
     }
 
     .working-project{
-        background-color:rgb(250, 242, 242);
-        font-size: 20px;
         text-align: center;
+        background-color:rgb(250, 242, 242);
+        
+        font-size: 20px;
         height: 500px;
         margin: 0;
-        overflow-block: 0;
-    
-        padding-bottom: 500px;
-
+        padding-left: 50px;
+        padding-bottom: 200px;
+        align-items: center;
+    }
         
     
+    .one-3rd{
+       width: 100%;
+       object-fit: cover;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
-
     .single{
-        float: left;
         background-color: white;
-        box-shadow: white;
-        border-radius: 10px;
-        height: 300px;
-        border-image: fill;
-        width: 25%;
-        padding: 10px;
-        float: left;
-
-    }
-
-    .inq img{
-        width: 60%;
+        box-shadow: 10px 10px 40px rgb(233, 232, 232);
+            border-radius: 20px;
+            height: 370px;
+            width: 25%;
+       
+            float: left;
+            border:7px white;   
+     }
+     
+     
+     .single img{
+        width: 100%;
         height: 200px;
-        justify-content: center;
-    }
+        object-fit: fill;
+      }
 
-    #agency{
-        padding: 2%;
-    }
+      #gym{
+         width: 30%;
+         margin: 7px;
+         padding: 10px;
+
+      
+      }
+      #agency{
+        width: 30%;
+        margin: 7px;
+        padding: 10px;
+        
+      }
+      #music{
+        width: 30%;
+        margin: 7px;
+        padding: 10px;
+      }
+
+      
