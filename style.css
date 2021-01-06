@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    background-color: white);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.topnav a{
+float: right;
+color: #0e0a0a;
+text-align: right;
+padding: 15px 20px;
+text-decoration: none;
+font-size: 17px;
+height: 2px;
+}
+
+
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.hello-colour{
+    color: rgb(5, 5, 49);
+}
+
+.name-colour{
+    color: tomato;
+}
+
+.half-width{
+    width: 40%;
+    padding: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+section{
+    height: 30%;
+    padding-bottom: 150px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, #eb1b1b, tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: papayawhip;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .latest-colour{
+        color: red;
+    }
+    .pro-colour{
+        color: rgb(53, 53, 53);
+    }
+
+    .working-project{
+        background-color:rgb(250, 242, 242);
+        font-size: 20px;
+        text-align: center;
+        height: 500px;
+        margin: 0;
+        overflow-block: 0;
+    
+        padding-bottom: 500px;
+
+        
+    
+    }
+    
+
+    .single{
+        float: left;
+        background-color: white;
+        box-shadow: white;
+        border-radius: 10px;
+        height: 300px;
+        border-image: fill;
+        width: 25%;
+        padding: 10px;
+        float: left;
+
+    }
+
+    .inq img{
+        width: 60%;
+        height: 200px;
+        justify-content: center;
+    }
+
+    #agency{
+        padding: 2%;
+    }
